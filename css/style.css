@@ -224,8 +224,7 @@ input, textarea, option, select {
   width: 90px;
   height: 90px;
   background-image: url(../img/tire.png);
-  animation: rotation 2s infinite linear;
-  border: 1px solid crimson;  
+  animation: rotation 2s infinite linear; 
   border-radius: 50%;
 }
 
