@@ -221,12 +221,34 @@ input, textarea, option, select {
   position: relative;
   animation: movement 4s ease infinite;
 }
+#globo{
+  opacity: 0;
+  background-color: #dfe1e2;
+  border-radius: 20px;
+  font-weight: 500;
+  animation: fade 2s infinite ease-in-out; 
+}
+#globo:hover{
+  opacity: 1; 
+  
+}
 #tire{
   width: 90px;
   height: 90px;
   background-image: url(../img/tire.png);
   animation: rotation 2s infinite linear; 
   border-radius: 50%;
+}
+@keyframes fade {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100%{
+      opacity: 0;
+  }
 }
 
 @keyframes grow {
