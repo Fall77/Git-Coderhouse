@@ -250,6 +250,9 @@ input, textarea, option, select {
   width: 140%;
   height:80vh;
 }
+.mapouter{
+  margin-left: 32px;
+}
 #globo{
   opacity: 0;
   background-color: #dfe1e2;
