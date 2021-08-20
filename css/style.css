@@ -21,7 +21,22 @@ body {
   background-size: cover;
   
 }
-
+.FAQ{
+  background-image: var(--defaultBG);
+  border-radius: 10px;
+}
+legend{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: 24px;
+  font-weight: 600;
+}
+h1{
+  text-align: center;
+  color: #dfe1e2;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
 h2 {
   text-align: center;
   color: #dfe1e2;
