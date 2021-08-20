@@ -216,7 +216,7 @@ input, textarea, option, select {
 }
 
 .footer__form {
-  
+  display:none;
   text-align: center;
   color: #dfe1e2;
 }
